@@ -3,12 +3,10 @@ import "./App.css";
 
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
+import EditStudent from "./components/EditStudent";
 
-import {
-    getStudents,
-    addStudent,
-    deleteStudent
-} from "./services/StudentService";
+import {getStudents, addStudent, deleteStudent} from "./services/StudentService";
+
 
 function App() {
 
@@ -56,6 +54,8 @@ function App() {
                 students={students}
                 deleteStudent={removeStudent}
             />
+
+            <EditStudent />
 
         </div>
 

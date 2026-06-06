@@ -4,7 +4,7 @@ function EditStudent() {
 
     return (
         <div>
-            Edit Student Component
+            <h1>Edit Student Component</h1>
         </div>
     );
 }

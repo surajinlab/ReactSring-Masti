@@ -6,7 +6,6 @@ function StudentList({ students, deleteStudent }) {
         <div className="table-container">
 
             <table>
-
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -27,22 +26,10 @@ function StudentList({ students, deleteStudent }) {
                             <td>{student.name}</td>
                             <td>{student.course}</td>
                             <td>{student.email}</td>
-
-                            <td>
-
-                                <button
-                                    className="btn-delete"
-                                    onClick={() =>
-                                        deleteStudent(student.id)
-                                    }
-                                >
-                                    Delete
-                                </button>
-
-                            </td>
+                            <td><button className="btn-delete" onClick={() => deleteStudent(student.id)}> Delete </button></td>
 
                         </tr>
-
+                        
                     ))}
 
                 </tbody>
