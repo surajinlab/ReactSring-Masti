@@ -9,15 +9,15 @@ import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:5173")
 @RestController
-@RequestMapping("/students")
+@RequestMapping("/std")
 public class StudentController {
 
     @Autowired
     StudentService service;
 
-    @GetMapping("/hello")
+    @GetMapping("/home")
     public String Hello() {
-        return "Hello World! Nice to meet you!";
+        return "Hello to College ERP!";
     }
 
     @GetMapping

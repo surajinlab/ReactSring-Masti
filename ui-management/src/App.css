@@ -75,6 +75,13 @@ h1, h2 {
   font-family: Arial, sans-serif;
 }
 
+/* ================= PAGE TEXT ================= */
+
+p {
+  margin-top: 10px;
+  color: #454545;
+}
+
 /* ================= FORM ================= */
 
 form {
@@ -182,11 +189,4 @@ body {
     text-align: center;
     font-size: 50px;
     color: red;
-}
-
-/* ================= PAGE TEXT ================= */
-
-p {
-  margin-top: 10px;
-  color: #454545;
 }

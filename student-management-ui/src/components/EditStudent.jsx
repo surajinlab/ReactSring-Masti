@@ -3,7 +3,7 @@ import React from "react";
 function EditStudent() {
 
     return (
-        <div>
+        <div className="edit-student-container">
             <h1>Edit Student Component</h1>
         </div>
     );
