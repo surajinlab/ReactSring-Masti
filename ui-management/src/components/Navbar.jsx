@@ -9,14 +9,7 @@ function Navbar() {
       <ul>
 
         <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? "active" : ""
-            }
-          >
-            Home
-          </NavLink>
+          <NavLink to="/" > Home </NavLink>
         </li>
 
         <li>

@@ -13,9 +13,11 @@ function AppRouter() {
       <Routes>
 
         <Route element={<MainLayout />}>
+
           <Route path="/" element={<Home />} />
           <Route path="/students" element={<Students />} />
           <Route path="/about" element={<About />} />
+          
         </Route>
 
         <Route path="*" element={<NotFound />} />

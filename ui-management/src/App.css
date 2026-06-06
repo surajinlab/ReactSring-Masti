@@ -52,7 +52,7 @@ body {
 
 /* Active link (NavLink support) */
 .navbar a.active {
-  background: #2563eb;
+  background: #2585eb;
 }
 
 /* ================= MAIN CONTAINER ================= */
@@ -70,6 +70,9 @@ body {
 
 h1, h2 {
   margin-bottom: 15px;
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 /* ================= FORM ================= */
@@ -146,17 +149,44 @@ tr:hover {
 /* ================= FOOTER ================= */
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+  padding: 10px;
   background: #1e293b;
-  color: white;
-  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  
+}
+
+.footer p {
+  margin: 10px;
+  padding: 10px;
+  color:#ccc
+}
+
+/* ================= PAGE NOT FOUND ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.not-found {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: red;
 }
 
 /* ================= PAGE TEXT ================= */
 
 p {
   margin-top: 10px;
-  color: #555;
+  color: #454545;
 }
