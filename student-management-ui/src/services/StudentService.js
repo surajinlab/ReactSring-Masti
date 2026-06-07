@@ -19,5 +19,5 @@ export const updateStudent = (id, student) => {
 };
 
 export const deleteStudent = (id) => {
-    return axios.delete(`${API_URL}/${id}`);
+    return axios.delete(`${API_URL}/delete/${id}`);
 };
